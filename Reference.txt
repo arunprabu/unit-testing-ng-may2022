@@ -1,0 +1,55 @@
+Angular Unit Testing 
+---
+
+Dev
+---
+  * will have test-cases 
+    Test cases 
+    --
+      1. Add should work with numbers as inputs (input should be number )
+      2. Output should also be number 
+      3. upon wrong input entered form button should be disabled 
+
+
+dev (write test cases) => dev => (Tools) => SUCCESS
+dev (write test cases) => dev => (Tools) => SUCCESS
+
+Automated Testing
+---
+  0. Static Type Checking 
+      typescript, FlowJS, PropTypes 
+
+  1. Unit Testing 
+      * testing tiny unit of a component 
+      * testing independent block of code 
+      Tools: Jasmine JS (Framework) + Karma (Test Runner), JEST and React Testing Library (JEST is Framework + Test Runner) 
+
+  2. Integration Testing 
+      * testing component + services 
+      * checking loader, successful Response, error response  
+      Tools: Jasmine JS (Framework) + Karma (Test Runner), JEST + React Testing Library 
+
+  3. End to End (E2E) Testing  
+      * Testing the entire app 
+      Tools: Protractor, Cucumber, CypressJS, Selenium 
+
+---
+
+Dev Approach  
+---
+  1. TDD (Test driven development)
+      TDD is focused on testing smaller pieces of functionality in isolation.
+
+  2. BDD (Behavior Driven development)
+      BDD is designed to test an application's behavior from the end user's standpoint
+
+-----
+
+Testing Pattern: AAA 
+----
+  Arrange - Act - Assert 
+
+Arrange: arranging what comp and also whether it is the ts or html to be tested 
+        Perform the setup and initialization required for the test.
+Act: Take action(s) required for the test.
+Assert: Verify the outcome(s) of the test. 

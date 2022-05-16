@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'unit-testing-ng-may2022';
+
+  appName = "Unit Testing App";
+
+  add(a: number, b: number){
+    return a + b;
+  }
+
 }
+
